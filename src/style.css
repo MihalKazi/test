@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a, nav ul li button {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #555;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover, nav ul li button:hover {
+    background: #777;
+  }
+  
+  .login-container, .todo-list, .profile, .stopwatch {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px 0;
+  }
+  
+  .login-container h2, .todo-list h2, .profile h2, .stopwatch h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input, .todo-list input, .profile input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-container button, .todo-list button, .profile button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover, .todo-list button:hover, .profile button:hover {
+    background: #218838;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .countdown {
+    font-weight: bold;
+    color: #f00;
+  }
+  
+  .statistics {
+    margin-top: 20px;
+  }
+  
+  .statistics p {
+    margin: 5px 0;
+  }
+  
+  .statistics .recharts-pie {
+    margin: 20px 0;
+  }
